@@ -1,31 +1,43 @@
 @import "../../_globalColor";
 
+// ...existing code...
 .dev-icons {
   padding-left: 0;
   list-style: none;
-  font-size: 3rem;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  text-align: center;
+  font-size: 0;              // remove inline-block spacing
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 .software-skill-inline {
-  display: inline-block;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
 }
 
 .software-skill-inline > i {
   color: $subTitle;
+  font-size: 2rem;
 }
 
-.software-skill-inline > i:hover {
-  color: $skillsColor;
+.skill-icon {
+  width: 2.5rem;
+  height: 2.5rem;
 }
+
+.skill-icon-img,
+.software-skill-inline > i {
+  width: 100%;
+  height: 100%;
+}
+
 .software-skill-inline > p {
   color: $subTitle;
-  font-size: 10px;
+  font-size: 0.75rem;
+  margin: 0;
 }
-.software-skill-inline > i:hover ~ p {
-  color: $skillsColor;
-}
+// ...existing code...

@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Paarth Pandey",
+  title: "Hi all, I'm Paarth",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A Certified Cybersecurity Professional by Google, AWS Cloud Practitioner, Former Intern @EGIS & Trend Micro and B.Tech Computer Science & Engineering Student @Malaviya National Institute of Technology, India. "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.usercontent.google.com/u/0/uc?id=1ZQt2p0grPqWK5W2r6UVASCQV3fbkp6Nd&export=download", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/PaarthPandey10",
+  linkedin: "https://www.linkedin.com/in/paarth-pandey-13779529b/",
+  gmail: "paarthdxb@gmail.com",
+  credly: "https://www.credly.com/users/paarth-pandey.6d3d510b/badges#credly",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,75 +45,28 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I've Done So Far",
+  subTitle: "DEDICATED TO CONTINUOUS LEARNING AND APPLYING MY SKILLS TO SOLVE REAL-WORLD SECURITY CHALLENGES.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Google Certified Cybersecurity Professional with proven analytical and threat-mitigation skills."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ AWS Certified Cloud Practitioner, skilled in securing cloud infrastructure and services."
+    ),
+    emoji(
+      "⚡ Trend Micro XDR Certified, with practical experience in incident detection and response."
+    ),
+    emoji(
+      "⚡ Hands-on security experience from internships at Trend Micro & Egis in network security and threat analysis."
     )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
+ 
+  softwareSkills: [],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -126,46 +76,54 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Malaviya National Institute of Technology, Jaipur",
+      logo: require("./assets/images/mnit-logo.png"),
+      subHeader: "Bachelor of Technology - Computer Science & Engineering",
+      duration: "August 2025 - June 2029",
+      desc: "Pursuing my B.Tech in CSE from MNIT, a top-tier National Institute of Technology (NIT) in North India. My curriculum provides a strong foundation in computational theory, software engineering, and systems development.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Core Coursework: Data Structures & Algorithms, Computer Networks, Operating Systems, Database Management Systems, and Cryptography.",
+        "Actively involved as a member of the university's Cybersecurity Club (CRYX).",
+        "Elected Class Representative for the CSE Batch of 2025-2029, liaising for 150+ students.",
+        "Marketing Team Member for Sphinx'25 (Technical Fest) and Blitzschlag'26 (Cultural Fest)."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "JSS Private School, Dubai",
+      logo: require("./assets/images/jss-logo.png"),
+      subHeader: "High School Diploma - CBSE (Science Stream)",
+      duration: "Graduated: March 2025",
+      desc: "Completed my high school education with a strong focus on computer science and math, achieving 95.4% and 97.8% in Class 12 and Class 10 (CBSE) respectively.",
+      descBullets: [
+        "Studied foundational concepts in Python, SQL, Networking, and Cybersecurity.",
+        "Received the 'Genius & Specialist Award' for academic excellence throughout high school.",
+        "Active member of the Coding Club and won the intra-school cricket championship."
+      ]
     }
   ]
 };
-
-// Your top 3 proficient stacks/tech experience
 
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Threat Detection & Response (SOC/XDR)", // From 1-C
+      progressPercentage: "80%" 
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
+      Stack: "Ethical Hacking & Pentesting", // From 3-B/C (closer to B)
       progressPercentage: "60%"
+    },
+    {
+      Stack: "Network & Cloud Security", // From 2-A/B
+      progressPercentage: "55%"
+    },
+    {
+      Stack: "Security Scripting (Python/Linux)", // From 4-just less than B
+      progressPercentage: "55%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false // Keep this false as per the template
 };
 
 // Work experience section
@@ -174,29 +132,27 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "AVIT & Security Intern",
+      company: "Egis Group",
+      companylogo: require("./assets/images/egis-logo.png"),
+      date: "July 2025 – August 2025",
+      desc: "Gained hands-on experience in physical and network security frameworks, designing solutions for major infrastructure projects in the UAE & KSA.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Studied SIRA, TDRA, and ADMCC security frameworks.",
+        "Designed Wi-Fi heatmaps (Ekahau AI Pro) and mapped fiber-to-device connectivity.",
+        "Interpreted CCTV placements from floorplans and designed network schematics."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Cyber Security Intern",
+      company: "Trend Micro",
+      companylogo: require("./assets/images/trendmicro-logo.png"),
+      date: "May 2025 – June 2025",
+      desc: "Worked as a certified Trend Vision One XDR professional in simulated threat environments, focusing on incident detection and response.",
+      descBullets: [
+        "Applied Zero Trust and Risk Analytics principles across endpoint, network, and cloud security scenarios.",
+        "Gained hands-on experience with incident detection, analysis, and response using Trend Micro Vision One."
+      ]
     }
   ]
 };
@@ -205,39 +161,49 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "A SELECTION OF MY HANDS-ON TECHNICAL WORKS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //image: require("./assets/images/dns-xdr-project.png"),
+      projectName: "AI Usage in DNS ",
+      projectDesc: "Authored a technical whitepaper on a simulated credential dumping attack, detailing the full incident response lifecycle using Trend Micro Vision One XDR and mapping TTPs to the MITRE ATT&CK framework.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Read the Whitepaper",
+          url: "https://github.com/PaarthPandey10/whitepapers/blob/main/trend-micro-internship-2025/whitepaper-tm-internship-2025.pdf" // <-- IMPORTANT: Upload the PDF to GitHub and paste the link here
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //image: require("./assets/images/google-cyber-logo.png"),
+      projectName: "Google Cybersecurity Professional Portfolio",
+      projectDesc: "A collection of projects and labs completed to earn the Google Cybersecurity Professional Certificate, demonstrating skills in SIEM, SQL, Linux, and incident response.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View on GitHub",
+          url: "https://github.com/PaarthPandey10/google-cybersecurity-portfolio"
         }
       ]
-    }
+    },
+    {
+      //image: require("./assets/images/aws-labs-logo.png"),
+      projectName: "AWS Cloud Practitioner Labs",
+      projectDesc: "A repository of hands-on labs and projects demonstrating core AWS services, security principles, and cloud architecture, completed for the AWS CP certification.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/PaarthPandey10/cloud-practitioner-labs"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -246,59 +212,71 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements & Certifications 🏆"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "My major certifications, hackathon achievements, and a portfolio of my continuous learning.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Certified Google Cybersecurity Professional",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Completed Google's 8-course professional certificate, covering security models, SIEM tools, SQL, Python, and incident response.",
+      image: require("./assets/images/google-logo.png"),
+      imageAlt: "Google Cybersecurity Professional Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "View Credential",
+          url: "https://www.coursera.org/account/accomplishments/professional-cert/5OVD0EJY7KUR" // <-- IMPORTANT: Add your Credly/Coursera link
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Portfolio",
+          url: "https://github.com/PaarthPandey10/google-cybersecurity-portfolio"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "AWS Certified Cloud Practitioner",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Validated foundational knowledge of AWS cloud, services, architecture, and security principles.",
+      image: require("./assets/images/aws-logo.png"),
+      imageAlt: "AWS Certified Cloud Practitioner Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Credential",
+          url: "https://cp.certmetrics.com/amazon/en/public/verify/credential/06b9a04785eb45d58357c3be8ad60efd" // <-- IMPORTANT: Add your Credly link
+        },
+        {
+          name: "View Labs",
+          url: "https://github.com/PaarthPandey10/cloud-practitioner-labs"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Trend Micro XDR Certified Professional",
+      subtitle:
+        "Certified in Trend Micro Vision One, with hands-on experience in incident detection, threat analysis, and XDR workflows.",
+      image: require("./assets/images/trendmicro-logo.png"),
+      imageAlt: "Trend Micro XDR Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "View Credential",
+          url: "https://github.com/PaarthPandey10/certificates/blob/main/trend-vision-one-xdr-professional.pdf" // <-- IMPORTANT: Add your cert link
         }
       ]
-    }
+    },
+    {
+      title: "Continuous Learning (15+ Certs)",
+      subtitle:
+        "A public repository of 15+ other certs from Duke University, Google, IIT Madras, Coursera, and more, covering C++, AI, and Data Science.",
+      image: require("./assets/images/coursera-logo.png"), // A good generic logo for this
+      imageAlt: "Continuous Learning Logo",
+      footerLink: [
+        {
+          name: "View All Certifications",
+          url: "https://github.com/PaarthPandey10/certificates" // <-- IMPORTANT: Link to your certs repo
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -324,7 +302,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +321,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +334,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,15 +350,16 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number1: "+91-637-884-9247",
+  number2: "+971-52-945-1637",
+  email_address: "paarthdxb@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
