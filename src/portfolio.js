@@ -26,7 +26,7 @@ const greeting = {
     "A Certified Cybersecurity Professional by Google, AWS Cloud Practitioner, Former Intern @EGIS & Trend Micro and B.Tech Computer Science & Engineering Student @Malaviya National Institute of Technology, India. "
   ),
   resumeLink:
-    "https://drive.usercontent.google.com/u/0/uc?id=1ZQt2p0grPqWK5W2r6UVASCQV3fbkp6Nd&export=download", // Set to empty to hide the button
+    "https://drive.usercontent.google.com/u/0/uc?id=1zhHvH_rbp9G7RMbHZj4LKmV1Xhq7ZOxo&export=download", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -49,6 +49,9 @@ const skillsSection = {
   subTitle: "DEDICATED TO CONTINUOUS LEARNING AND APPLYING MY SKILLS TO SOLVE REAL-WORLD SECURITY CHALLENGES.",
   skills: [
     emoji(
+      "⚡ Recipient of UAE 10-year Golden Residency Visa under distinction student category, based on merit and academic excellence in high school."
+    ),
+    emoji(
       "⚡ Google Certified Cybersecurity Professional with proven analytical and threat-mitigation skills."
     ),
     emoji(
@@ -60,6 +63,7 @@ const skillsSection = {
     emoji(
       "⚡ Hands-on security experience from internships at Trend Micro & Egis in network security and threat analysis."
     )
+    
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -108,7 +112,7 @@ const techStack = {
   experience: [
     {
       Stack: "Threat Detection & Response (SOC/XDR)", // From 1-C
-      progressPercentage: "80%" 
+      progressPercentage: "70%" 
     },
     {
       Stack: "Ethical Hacking & Pentesting", // From 3-B/C (closer to B)
@@ -119,7 +123,7 @@ const techStack = {
       progressPercentage: "55%"
     },
     {
-      Stack: "Security Scripting (Python/Linux)", // From 4-just less than B
+      Stack: "IBM Z Mainframe Practitioning" , // From 4-just less than B
       progressPercentage: "55%"
     }
   ],
@@ -201,6 +205,17 @@ const bigProjects = {
         {
           name: "View on GitHub",
           url: "https://github.com/PaarthPandey10/cloud-practitioner-labs"
+        }
+      ]
+    },
+    {
+      //image: require("./assets/images/aws-labs-logo.png"),
+      projectName: "IBM Z Mainframe Xplore Labs",
+      projectDesc: "Repository containing screenshots and visual guides for IBM Z Mainframe Xplore Labs, showcasing my journey towards becoming an IBM Z Practitioner. Currently in progress. Contains topics from Concepts badge.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/PaarthPandey10/ibm-z-mainframe-lab"
         }
       ]
     },
