@@ -26,7 +26,7 @@ This repository is no longer maintained and now functions exclusively as an auto
 ---
 
 ## Project Structure
-```text
+```
 PaarthPandey10.github.io/
 ├── public/
 │   └── index.html (Contains instant meta-redirect)
@@ -36,10 +36,12 @@ PaarthPandey10.github.io/
 │   └── workflows/
 ├── package.json
 └── README.md
+```
+
 Usage / How to Use
 No installation or usage is required. Visiting the GitHub Pages link associated with this repository will instantly redirect you to the active portfolio.
 
-New Live Site: paarthpandey.pages.dev
+New Live Site: [https://paarthpandey.pages.dev](https://paarthpandey.pages.dev/)
 
 Features / Highlights
 Preserves legacy SEO and backlink integrity.
