@@ -65,4 +65,5 @@ Paarth Pandey
 [LinkedIn](https://www.linkedin.com/in/paarthpandey/) | [GitHub](https://github.com/PaarthPandey10) | paarthdxb@gmail.com
 
 > Author: Paarth Pandey
+> 
 > Legacy GitHub Pages Portfolio
