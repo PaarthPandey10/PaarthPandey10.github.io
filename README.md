@@ -38,34 +38,31 @@ PaarthPandey10.github.io/
 └── README.md
 ```
 
-Usage / How to Use
+## Usage / How to Use
 No installation or usage is required. Visiting the GitHub Pages link associated with this repository will instantly redirect you to the active portfolio.
 
 New Live Site: [https://paarthpandey.pages.dev](https://paarthpandey.pages.dev/)
 
-Features / Highlights
+## Features / Highlights
 Preserves legacy SEO and backlink integrity.
 
 Utilizes <meta http-equiv="refresh"> for zero-second redirection.
 
 Maintains GitHub Pages deployment architecture to satisfy LinkedIn URL inspectors.
 
-Technologies Used
+## Technologies Used
 HTML Meta Redirect
-
 GitHub Pages
 
-Contributing
+## Contributing
 Not open for contributions. This is a deprecated personal repository.
 
-License
+## License
 MIT License.
 
-Contact
+## Contact
 Paarth Pandey
+[LinkedIn](https://www.linkedin.com/in/paarthpandey/) | [GitHub](https://github.com/PaarthPandey10) | paarthdxb@gmail.com
 
-LinkedIn | GitHub | paarthdxb@gmail.com
-
-Author: Paarth Pandey
-
-Legacy GitHub Pages Portfolio
+> Author: Paarth Pandey
+> Legacy GitHub Pages Portfolio
